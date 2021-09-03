@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> <!--Carecteres especiales-->
+            <meta name="description" content="Esta página te mostrara contenido sobre...">  <!--Descripción de la pagina-->
+            <meta  name="robots" content="index,follow"> <!--autorizar al navegador de utilizar orbots para posicionar la pagina -->
+            <title>select</title> <!--titulo del proyecto-->
+            <meta name="vieport" content="width=device-width, inicial-scale=1.0"> <!--Para referirise a sitio web responsive-->
+            <link rel="stylesheet" href="./CSS/style.css"> <!--incorporar la hoka de estilos en el index -->
+    </head>
+    <body>
+        <!--Esta es la opción pero no es la mejor practica, ya que no es el mejor con muchas opciones-->
+        <!--<main>
+            <select name="" id="">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HtML5">HtML5</option>
+                <option value="CSS3">CSS3</option>
+                <option value="Web Standards">Web Standards</option>
+            </select>
+        </main>-->
+        <!--Buenas practicas-->
+        <main>
+            <input list="cursos">
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HtML5"></option>
+                <option value="CSS3"></option>
+                <option value="Web Standard"></option>
+            </datalist>   
+        </main>
+    </body>
+</html>
