@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"> <!--Carecteres especiales-->
+        <meta name="description" content="Esta página te mostrara contenido sobre...">  <!--Descripción de la pagina-->
+        <meta  name="robots" content="index,follow"> <!--autorizar al navegador de utilizar orbots para posicionar la pagina -->
+        <title>Formulario</title> <!--titulo del proyecto-->
+        <meta name="vieport" content="width=device-width, inicial-scale=1.0"> <!--Para referirise a sitio web responsive-->
+        <link rel="stylesheet" href="./CSS/style.css"> <!--incorporar la hoka de estilos en el index -->
+    </head>
+    <body>
+        <main>
+            <form action="">
+                
+                <label for="nombre">
+                    <span>¿Cúal es tu nombre?</span>
+                    <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+                </label>
+
+                <label for="correo">
+                    <span>¿Cúal es tu correo?</span>
+                    <input type="email" name="correo" id="correo" autocomplete="email" required>
+                </label>
+
+                <label for="pais">
+                    <span>¿En que pais vives?</span>
+                    <input type="text" name="pais" id="pais" autocomplete="country" required>
+                </label>
+
+                <label for="cp">
+                    <span>¿Cúal es tu cogio postal?</span>
+                    <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+                </label>
+                <input type="submit">
+            </form>
+        </main>
+    </body>
+</html>
