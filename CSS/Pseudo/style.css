@@ -1,0 +1,29 @@
+.header_ul{
+    margin-top: 10px;
+    list-style: none;/*estilo de la lista para quitar los punos*/
+    padding-left: 0 ;
+    background-color: #13a4a4;
+}
+.header_ul--li{
+    display: inline-block;/*poner los elementos de forma horizontal*/
+}
+/*ser especifco en css*/
+.header_ul--li a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+/*pseudo clases*/
+.header_ul--li a:hover{
+    color: blueviolet;
+}
+.header_ul--li a:active{
+    color: coral;
+}
+.header_ul--li a:focus{
+    color: chartreuse;
+}
+/*seudo elemento*/
+.header_ul--li a::after{
+    content:" | ";
+}
